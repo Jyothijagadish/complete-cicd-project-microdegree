@@ -31,8 +31,7 @@ pipeline {
             }
         }
 
-
-        stage('sonarqube-stage)'{
+        stage('sonarqube-stage'){
             steps{
                 sh"""
                 mvn sonar:sonar \
