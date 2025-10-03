@@ -5,6 +5,7 @@ pipeline {
         IMAGE_NAME = "manojkrishnappa/fullstack:${GIT_COMMIT}"
         AWS_REGION = "us-east-1"
         CLUSTER_NAME = "microdegree-cluster"
+        NAMESPACE = "microdegree"
     }
 
     tools {
